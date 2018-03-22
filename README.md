@@ -18,3 +18,9 @@ https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
 - Example: python app/server.py True True
 
+## Useful resources
+- Flask HTTP auth
+    - https://flask-httpauth.readthedocs.io/en/latest/
+    - http://polyglot.ninja/securing-rest-apis-basic-http-authentication-python-flask/
+    - https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+
