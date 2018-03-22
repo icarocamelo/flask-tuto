@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import request
+import sys
 
 app = Flask(__name__)
 
@@ -21,4 +22,14 @@ def version():
     return 'Version: ' + app_version
 
 if __name__ == '__main__':
-    app.run(debug = True)
+    debug = sys.argv[1]
+    ssl = sys.argv[2]
+
+    print ('Starting server... DEBUG enabled: ' + debug)
+
+    if ssl == 'True':
+        print ('SSL enabled')
+        app.run(ssl_context='adhoc', debug = debug == 'True')       
+    else:
+        print ('DEBUG enabled: ' + debug == 'True')
+        app.run(debug = debug == 'True')
