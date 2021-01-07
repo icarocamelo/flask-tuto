@@ -37,7 +37,7 @@ Jinja2==2.10
 jinja2schema==0.1.4
 kubernetes==4.0.0
 lockfile==0.12.2
-lxml==3.5.0
+lxml==4.6.2
 Mako==1.0.3
 MarkupSafe==1.0
 meld==3.14.2
