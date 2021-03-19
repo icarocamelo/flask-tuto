@@ -33,7 +33,7 @@ idna==2.0
 ipaddress==1.0.19
 ipython==2.4.1
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 jinja2schema==0.1.4
 kubernetes==4.0.0
 lockfile==0.12.2
