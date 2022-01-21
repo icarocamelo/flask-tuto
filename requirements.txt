@@ -31,7 +31,7 @@ google-auth==1.4.1
 httplib2==0.9.1
 idna==2.0
 ipaddress==1.0.19
-ipython==2.4.1
+ipython==7.16.3
 itsdangerous==0.24
 Jinja2==2.10
 jinja2schema==0.1.4
